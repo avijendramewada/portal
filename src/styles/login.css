@@ -1,0 +1,85 @@
+.form {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: row; */
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #f8f9fd;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  width: 100%;
+  border: 1px solid #ced4d2;
+  border-radius: 6%;
+}
+input[type="text"]:focus {
+  outline: none !important ;
+  border-color: #858586;
+  border-width: 2px;
+}
+input[type="password"]:focus {
+  outline: none !important;
+  border-color: #858586;
+  border-width: 2px;
+}
+/* .label {
+  background-color: rgb(112, 53, 53);
+  border-color: #39393d;
+  border-width: 2px;
+} */
+
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #3891e4;
+  border: 1px solid #f4fdfa;
+  color: #fff;
+  width: 60%;
+  padding: 10px 20px;
+  border-radius: 8%;
+}
+
+input[type="submit"]:hover {
+  background: #2f91ec;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: white;
+  padding: 2rem;
+  /* box-shadow: 0 4px 8px 0 rgba(248, 245, 245, 0.863),
+    0 6px 20px 0 rgba(248, 246, 246, 0.904); */
+}
+
+/* .list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+} */
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin: 10px;
+}
